@@ -1,0 +1,1543 @@
+.dashboard,
+.dashboard * {
+  box-sizing: border-box;
+}
+.dashboard {
+  background: #f5f5f5;
+  min-height: 100vh; /* full screen */
+  position: relative;
+  overflow-x: hidden; /* prevent sideways scroll */
+}
+  .toast {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    background: #333;
+    color: #fff;
+    padding: 10px 16px;
+    border-radius: 6px;
+    opacity: 0.95;
+    z-index: 9999;
+    transition: opacity 0.3s ease-in-out;
+  }
+.top-navigation {
+  background: #ffffff;
+  border-style: solid;
+  border-color: #e9e9e9;
+  border-width: 0px 0px 1px 0px;
+  padding: 16px 80px 16px 80px;
+  display: flex;
+  flex-direction: row;
+  gap: 24px;
+  align-items: center;
+  justify-content: flex-start;
+  width: 1600px;
+  height: 78px;
+  position: absolute;
+  left: 50%;
+  translate: -50%;
+  top: 0px;
+}
+.cs-ticket-system {
+  color: #130b2d;
+  text-align: left;
+  font-family: "Inter-Bold", sans-serif;
+  font-size: 24px;
+  line-height: 26px;
+  font-weight: 700;
+  position: relative;
+  flex: 1;
+}
+
+.tickets-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 16px;
+}
+.ticket-card {
+  background: #fff;
+  padding: 16px;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  cursor: pointer;
+}
+.ticket-card:hover {
+  background: #f9f9f9;
+}
+
+.frame-29 {
+  display: flex;
+  flex-direction: row;
+  gap: 32px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.course-details {
+  color: rgba(0, 0, 0, 0.9);
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 16px;
+  line-height: 152%;
+  font-weight: 400;
+  position: relative;
+}
+.blog {
+  color: rgba(0, 0, 0, 0.9);
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 16px;
+  line-height: 152%;
+  font-weight: 400;
+  position: relative;
+}
+.my-classess {
+  color: rgba(0, 0, 0, 0.9);
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 16px;
+  line-height: 152%;
+  font-weight: 400;
+  position: relative;
+}
+.primary-button-2 {
+  background: var(
+    --gradient-linear,
+    linear-gradient(
+      125.04deg,
+      rgba(99, 46, 227, 1) 0%,
+      rgba(159, 98, 242, 1) 100%
+    )
+  );
+  border-radius: 4px;
+  padding: 12px 16px 12px 16px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  width: 145px;
+  height: 43px;
+  position: relative;
+}
+.ic-outline-plus {
+  flex-shrink: 0;
+  width: 16px;
+  height: 16px;
+  position: relative;
+  overflow: visible;
+  aspect-ratio: 1;
+}
+.enroll-now-2 {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Inter-SemiBold", sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  position: relative;
+}
+.frame-1171277694 {
+  display: flex;
+  flex-direction: column;
+  gap: 80px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 1440px;
+  position: absolute;
+  left: 80px;
+  top: 158px;
+}
+.frame-98673 {
+  display: flex;
+  flex-direction: row;
+  gap: 24px;
+  align-items: center;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  height: 250px;
+  position: relative;
+}
+.frame-98668 {
+  background: var(
+    --gradient-linear,
+    linear-gradient(
+      125.04deg,
+      rgba(99, 46, 227, 1) 0%,
+      rgba(159, 98, 242, 1) 100%
+    )
+  );
+  border-radius: 8px;
+  padding: 40px;
+  display: flex;
+  flex-direction: row;
+  gap: 12px;
+  align-items: center;
+  justify-content: center;
+  flex: 1;
+  height: 250px;
+  position: relative;
+  overflow: hidden;
+}
+.frame-98667 {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex: 1;
+  position: relative;
+}
+.in-progress {
+  color: #ffffff;
+  text-align: center;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 24px;
+  line-height: 26px;
+  font-weight: 400;
+  position: relative;
+  align-self: stretch;
+}
+._0 {
+  color: #ffffff;
+  text-align: center;
+  font-family: "Inter-SemiBold", sans-serif;
+  font-size: 60px;
+  letter-spacing: -0.02em;
+  font-weight: 600;
+  position: relative;
+  align-self: stretch;
+}
+.group-1 {
+  flex-shrink: 0;
+  width: 343.23px;
+  height: 732px;
+  position: absolute;
+  left: 404.16px;
+  top: -211px;
+  overflow: visible;
+}
+.group-2 {
+  flex-shrink: 0;
+  width: 343.23px;
+  height: 732px;
+  position: absolute;
+  left: 303.67px;
+  top: -211px;
+  transform: translate(-303.67px, 211px);
+  overflow: visible;
+}
+.frame-98670 {
+  background: var(
+    --gradient-linear,
+    linear-gradient(
+      90deg,
+      rgba(84, 207, 104, 1) 0.009999999747378752%,
+      rgba(0, 130, 122, 1) 100%
+    )
+  );
+  border-radius: 8px;
+  padding: 40px;
+  display: flex;
+  flex-direction: row;
+  gap: 12px;
+  align-items: center;
+  justify-content: flex-start;
+  flex: 1;
+  height: 250px;
+  position: relative;
+  overflow: hidden;
+}
+.resolved {
+  color: #ffffff;
+  text-align: center;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 24px;
+  line-height: 26px;
+  font-weight: 400;
+  position: relative;
+  align-self: stretch;
+}
+.group-12 {
+  flex-shrink: 0;
+  width: 343.23px;
+  height: 732px;
+  position: absolute;
+  left: 404.16px;
+  top: -211px;
+  overflow: visible;
+}
+.group-22 {
+  flex-shrink: 0;
+  width: 343.23px;
+  height: 732px;
+  position: absolute;
+  left: 303.67px;
+  top: -211px;
+  transform: translate(-303.67px, 211px);
+  overflow: visible;
+}
+.frame-1171277693 {
+  display: flex;
+  flex-direction: row;
+  gap: 32px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.frame-1171276489 {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  width: 1050px;
+  position: relative;
+}
+.frame-1171276471 {
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+  align-items: center;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.customer-tickets {
+  color: #34485a;
+  text-align: left;
+  font-family: "Inter-SemiBold", sans-serif;
+  font-size: 24px;
+  line-height: 26px;
+  font-weight: 600;
+  position: relative;
+  flex: 1;
+}
+.frame-1171276493 {
+  display: flex;
+  flex-direction: row;
+  gap: 24px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.frame-1171276477 {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex: 1;
+  position: relative;
+}
+.task-card {
+  background: #ffffff;
+  border-radius: 4px;
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: center;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+  box-shadow: var(--shadow-3-box-shadow, 0px 4px 16px 0px rgba(0, 0, 0, 0.08));
+}
+.frame-98685 {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.frame-1171276472 {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.frame-98691 {
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.frame-1171276490 {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: flex-start;
+  flex: 1;
+  position: relative;
+}
+.login-issues-can-t-access-account {
+  color: #001931;
+  text-align: left;
+  font-family: "Inter-Medium", sans-serif;
+  font-size: 18px;
+  line-height: 22px;
+  font-weight: 500;
+  position: relative;
+  flex: 1;
+}
+.badge {
+  background: #b9f8cf;
+  border-radius: var(--radius-radius-full, 400px);
+  padding: 4px 12px 4px 12px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  position: relative;
+}
+.text {
+  display: flex;
+  flex-direction: row;
+  gap: 6px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  position: relative;
+}
+.ellipse-22 {
+  background: #02a53b;
+  border-radius: 50%;
+  flex-shrink: 0;
+  width: 16px;
+  height: 16px;
+  position: relative;
+  aspect-ratio: 1;
+}
+.open {
+  color: #0b5e06;
+  text-align: left;
+  font-family: "Inter-Medium", sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 500;
+  position: relative;
+}
+.frame-98684 {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  align-items: flex-start;
+  justify-content: center;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.customer-is-unable-to-log-in-to-their-account-they-ve-tried-resetting-their-password-multiple-times-but-still {
+  color: #627382;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 16px;
+  line-height: 18px;
+  font-weight: 400;
+  position: relative;
+  align-self: stretch;
+}
+.frame-1171276476 {
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+  align-items: center;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+._1001 {
+  color: #627382;
+  text-align: left;
+  font-family: "Inter-Medium", sans-serif;
+  font-size: 14px;
+  line-height: 22px;
+  font-weight: 500;
+  position: relative;
+}
+.high-priority {
+  color: #f83044;
+  text-align: left;
+  font-family: "Inter-Medium", sans-serif;
+  font-size: 14px;
+  line-height: 22px;
+  font-weight: 500;
+  position: relative;
+  flex: 1;
+}
+.frame-1171276491 {
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.john-smith {
+  color: #627382;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 14px;
+  line-height: 22px;
+  font-weight: 400;
+  position: relative;
+}
+.frame-1171276492 {
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.ri-calendar-line {
+  flex-shrink: 0;
+  width: 24px;
+  height: 24px;
+  position: relative;
+  overflow: visible;
+  aspect-ratio: 1;
+}
+._1-15-2024 {
+  color: #627382;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 14px;
+  line-height: 22px;
+  font-weight: 400;
+  position: relative;
+}
+.unable-to-download-invoice {
+  color: #001931;
+  text-align: left;
+  font-family: "Inter-Medium", sans-serif;
+  font-size: 18px;
+  line-height: 22px;
+  font-weight: 500;
+  position: relative;
+  flex: 1;
+}
+.badge2 {
+  background: #f8f3b9;
+  border-radius: var(--radius-radius-full, 400px);
+  padding: 4px 12px 4px 12px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  position: relative;
+}
+.ellipse-222 {
+  background: #febb0c;
+  border-radius: 50%;
+  flex-shrink: 0;
+  width: 16px;
+  height: 16px;
+  position: relative;
+  aspect-ratio: 1;
+}
+.in-progress2 {
+  color: #9c7700;
+  text-align: left;
+  font-family: "Inter-Medium", sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 500;
+  position: relative;
+}
+.customer-cannot-download-their-january-invoice-from-the-billing-section-the-download-button-is {
+  color: #627382;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 16px;
+  line-height: 18px;
+  font-weight: 400;
+  position: relative;
+  align-self: stretch;
+}
+._1003 {
+  color: #627382;
+  text-align: left;
+  font-family: "Inter-Medium", sans-serif;
+  font-size: 14px;
+  line-height: 22px;
+  font-weight: 500;
+  position: relative;
+}
+.medium-priority {
+  color: #febb0c;
+  text-align: left;
+  font-family: "Inter-Medium", sans-serif;
+  font-size: 14px;
+  line-height: 22px;
+  font-weight: 500;
+  position: relative;
+  flex: 1;
+}
+.avatar-group {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.avatar {
+  border-radius: var(--var-sds-size-radius-full, 9999px);
+  flex-shrink: 0;
+  width: 24px;
+  height: 24px;
+  position: relative;
+  overflow: hidden;
+  aspect-ratio: 1;
+}
+.michael-brown {
+  color: #627382;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 14px;
+  line-height: 22px;
+  font-weight: 400;
+  position: relative;
+}
+.ri-calendar-line2 {
+  flex-shrink: 0;
+  width: 24px;
+  height: 24px;
+  position: relative;
+  overflow: visible;
+  aspect-ratio: 1;
+}
+._1-17-2024 {
+  color: #627382;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 14px;
+  line-height: 22px;
+  font-weight: 400;
+  position: relative;
+}
+.app-crash-on-launch {
+  color: #001931;
+  text-align: left;
+  font-family: "Inter-Medium", sans-serif;
+  font-size: 18px;
+  line-height: 22px;
+  font-weight: 500;
+  position: relative;
+  flex: 1;
+}
+.customer-reports-that-the-mobile-app-crashes-immediately-upon-opening-on-android-13 {
+  color: #627382;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 16px;
+  line-height: 18px;
+  font-weight: 400;
+  position: relative;
+  align-self: stretch;
+}
+._1005 {
+  color: #627382;
+  text-align: left;
+  font-family: "Inter-Medium", sans-serif;
+  font-size: 14px;
+  line-height: 22px;
+  font-weight: 500;
+  position: relative;
+}
+.david-wilson {
+  color: #627382;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 14px;
+  line-height: 22px;
+  font-weight: 400;
+  position: relative;
+}
+.ri-calendar-line3 {
+  flex-shrink: 0;
+  width: 24px;
+  height: 24px;
+  position: relative;
+  overflow: visible;
+  aspect-ratio: 1;
+}
+._1-19-2024 {
+  color: #627382;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 14px;
+  line-height: 22px;
+  font-weight: 400;
+  position: relative;
+}
+.two-factor-authentication-issue {
+  color: #001931;
+  text-align: left;
+  font-family: "Inter-Medium", sans-serif;
+  font-size: 18px;
+  line-height: 22px;
+  font-weight: 500;
+  position: relative;
+  flex: 1;
+}
+.customer-is-not-receiving-2-fa-codes-on-their-registered-phone-number {
+  color: #627382;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 16px;
+  line-height: 18px;
+  font-weight: 400;
+  position: relative;
+  align-self: stretch;
+}
+._1007 {
+  color: #627382;
+  text-align: left;
+  font-family: "Inter-Medium", sans-serif;
+  font-size: 14px;
+  line-height: 22px;
+  font-weight: 500;
+  position: relative;
+}
+.james-anderson {
+  color: #627382;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 14px;
+  line-height: 22px;
+  font-weight: 400;
+  position: relative;
+}
+.ri-calendar-line4 {
+  flex-shrink: 0;
+  width: 24px;
+  height: 24px;
+  position: relative;
+  overflow: visible;
+  aspect-ratio: 1;
+}
+._1-21-2024 {
+  color: #627382;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 14px;
+  line-height: 22px;
+  font-weight: 400;
+  position: relative;
+}
+.subscription-auto-renewal {
+  color: #001931;
+  text-align: left;
+  font-family: "Inter-Medium", sans-serif;
+  font-size: 18px;
+  line-height: 22px;
+  font-weight: 500;
+  position: relative;
+  flex: 1;
+}
+.customer-wants-to-enable-auto-renewal-for-their-subscription-but-the-toggle-is-disabled {
+  color: #627382;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 16px;
+  line-height: 18px;
+  font-weight: 400;
+  position: relative;
+  align-self: stretch;
+}
+._1009 {
+  color: #627382;
+  text-align: left;
+  font-family: "Inter-Medium", sans-serif;
+  font-size: 14px;
+  line-height: 22px;
+  font-weight: 500;
+  position: relative;
+}
+.liam-thomas {
+  color: #627382;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 14px;
+  line-height: 22px;
+  font-weight: 400;
+  position: relative;
+}
+.ri-calendar-line5 {
+  flex-shrink: 0;
+  width: 24px;
+  height: 24px;
+  position: relative;
+  overflow: visible;
+  aspect-ratio: 1;
+}
+.frame-1171276479 {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex: 1;
+  position: relative;
+}
+.payment-failed-card-declined {
+  color: #001931;
+  text-align: left;
+  font-family: "Inter-Medium", sans-serif;
+  font-size: 18px;
+  line-height: 22px;
+  font-weight: 500;
+  position: relative;
+  flex: 1;
+}
+.customer-attempted-to-pay-using-visa-ending-1234-but-the-payment-keeps-failing-despite-sufficient-balance {
+  color: #627382;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 16px;
+  line-height: 18px;
+  font-weight: 400;
+  position: relative;
+  align-self: stretch;
+}
+._1002 {
+  color: #627382;
+  text-align: left;
+  font-family: "Inter-Medium", sans-serif;
+  font-size: 14px;
+  line-height: 22px;
+  font-weight: 500;
+  position: relative;
+}
+.sarah-johnson {
+  color: #627382;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 14px;
+  line-height: 22px;
+  font-weight: 400;
+  position: relative;
+}
+.ri-calendar-line6 {
+  flex-shrink: 0;
+  width: 24px;
+  height: 24px;
+  position: relative;
+  overflow: visible;
+  aspect-ratio: 1;
+}
+._1-16-2024 {
+  color: #627382;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 14px;
+  line-height: 22px;
+  font-weight: 400;
+  position: relative;
+}
+.incorrect-billing-address {
+  color: #001931;
+  text-align: left;
+  font-family: "Inter-Medium", sans-serif;
+  font-size: 18px;
+  line-height: 22px;
+  font-weight: 500;
+  position: relative;
+  flex: 1;
+}
+.customer-s-billing-address-shows-a-different-city-they-updated-it-but-it-still-displays-the-old-one {
+  color: #627382;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 16px;
+  line-height: 18px;
+  font-weight: 400;
+  position: relative;
+  align-self: stretch;
+}
+._1004 {
+  color: #627382;
+  text-align: left;
+  font-family: "Inter-Medium", sans-serif;
+  font-size: 14px;
+  line-height: 22px;
+  font-weight: 500;
+  position: relative;
+}
+.low-priority {
+  color: #02a53b;
+  text-align: left;
+  font-family: "Inter-Medium", sans-serif;
+  font-size: 14px;
+  line-height: 22px;
+  font-weight: 500;
+  position: relative;
+  flex: 1;
+}
+.emily-davis {
+  color: #627382;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 14px;
+  line-height: 22px;
+  font-weight: 400;
+  position: relative;
+}
+.ri-calendar-line7 {
+  flex-shrink: 0;
+  width: 24px;
+  height: 24px;
+  position: relative;
+  overflow: visible;
+  aspect-ratio: 1;
+}
+._1-18-2024 {
+  color: #627382;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 14px;
+  line-height: 22px;
+  font-weight: 400;
+  position: relative;
+}
+.refund-not-processed {
+  color: #001931;
+  text-align: left;
+  font-family: "Inter-Medium", sans-serif;
+  font-size: 18px;
+  line-height: 22px;
+  font-weight: 500;
+  position: relative;
+  flex: 1;
+}
+.customer-requested-a-refund-two-weeks-ago-but-has-not-received-the-amount-yet {
+  color: #627382;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 16px;
+  line-height: 18px;
+  font-weight: 400;
+  position: relative;
+  align-self: stretch;
+}
+._1006 {
+  color: #627382;
+  text-align: left;
+  font-family: "Inter-Medium", sans-serif;
+  font-size: 14px;
+  line-height: 22px;
+  font-weight: 500;
+  position: relative;
+}
+.sophia-taylor {
+  color: #627382;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 14px;
+  line-height: 22px;
+  font-weight: 400;
+  position: relative;
+}
+.ri-calendar-line8 {
+  flex-shrink: 0;
+  width: 24px;
+  height: 24px;
+  position: relative;
+  overflow: visible;
+  aspect-ratio: 1;
+}
+._1-20-2024 {
+  color: #627382;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 14px;
+  line-height: 22px;
+  font-weight: 400;
+  position: relative;
+}
+.unable-to-update-profile-picture {
+  color: #001931;
+  text-align: left;
+  font-family: "Inter-Medium", sans-serif;
+  font-size: 18px;
+  line-height: 22px;
+  font-weight: 500;
+  position: relative;
+  flex: 1;
+}
+.customer-tries-to-upload-a-new-profile-picture-but-gets-upload-failed-error {
+  color: #627382;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 16px;
+  line-height: 18px;
+  font-weight: 400;
+  position: relative;
+  align-self: stretch;
+}
+._1008 {
+  color: #627382;
+  text-align: left;
+  font-family: "Inter-Medium", sans-serif;
+  font-size: 14px;
+  line-height: 22px;
+  font-weight: 500;
+  position: relative;
+}
+.olivia-martinez {
+  color: #627382;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 14px;
+  line-height: 22px;
+  font-weight: 400;
+  position: relative;
+}
+.ri-calendar-line9 {
+  flex-shrink: 0;
+  width: 24px;
+  height: 24px;
+  position: relative;
+  overflow: visible;
+  aspect-ratio: 1;
+}
+._1-22-2024 {
+  color: #627382;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 14px;
+  line-height: 22px;
+  font-weight: 400;
+  position: relative;
+}
+.missing-order-confirmation-email {
+  color: #001931;
+  text-align: left;
+  font-family: "Inter-Medium", sans-serif;
+  font-size: 18px;
+  line-height: 22px;
+  font-weight: 500;
+  position: relative;
+  flex: 1;
+}
+.customer-placed-an-order-but-didn-t-receive-a-confirmation-email-even-though-payment-succeeded {
+  color: #627382;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 16px;
+  line-height: 18px;
+  font-weight: 400;
+  position: relative;
+  align-self: stretch;
+}
+._1010 {
+  color: #627382;
+  text-align: left;
+  font-family: "Inter-Medium", sans-serif;
+  font-size: 14px;
+  line-height: 22px;
+  font-weight: 500;
+  position: relative;
+}
+.isabella-garcia {
+  color: #627382;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 14px;
+  line-height: 22px;
+  font-weight: 400;
+  position: relative;
+}
+.ri-calendar-line10 {
+  flex-shrink: 0;
+  width: 24px;
+  height: 24px;
+  position: relative;
+  overflow: visible;
+  aspect-ratio: 1;
+}
+._1-24-2024 {
+  color: #627382;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 14px;
+  line-height: 22px;
+  font-weight: 400;
+  position: relative;
+}
+.frame-1171276494 {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  width: 358px;
+  position: relative;
+}
+.frame-11712764902 {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.task-status {
+  color: #34485a;
+  text-align: left;
+  font-family: "Inter-SemiBold", sans-serif;
+  font-size: 24px;
+  line-height: 26px;
+  font-weight: 600;
+  position: relative;
+  flex: 1;
+}
+.select-a-ticket-to-add-to-task-status {
+  color: #627382;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 16px;
+  line-height: 18px;
+  font-weight: 400;
+  position: relative;
+  align-self: stretch;
+}
+.frame-11712764912 {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.resolved-task {
+  color: #34485a;
+  text-align: left;
+  font-family: "Inter-SemiBold", sans-serif;
+  font-size: 24px;
+  line-height: 26px;
+  font-weight: 600;
+  position: relative;
+  flex: 1;
+}
+.no-resolved-tasks-yet {
+  color: #627382;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 16px;
+  line-height: 18px;
+  font-weight: 400;
+  position: relative;
+  align-self: stretch;
+}
+.footer {
+  background: var(--black, #000000);
+  padding: 80px 80px 30px 80px;
+  display: flex;
+  flex-direction: column;
+  gap: 80px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 1600px;
+  position: absolute;
+  left: 50%;
+  translate: -50%;
+  top: 1414px;
+}
+.content {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.description {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  width: 350px;
+  position: relative;
+}
+.cs-ticket-system2 {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Inter-Bold", sans-serif;
+  font-size: 24px;
+  line-height: 26px;
+  font-weight: 700;
+  position: relative;
+  align-self: stretch;
+}
+.lorem-ipsum-is-simply-dummy-text-of-the-printing-and-typesetting-industry-lorem-ipsum-has-been-the-industry-s-standard-dummy-text-ever-since-the-1500-s-when-an-unknown-printer-took-a-galley-of-type-and-scrambled-it-to-make-a-type-specimen-book {
+  color: #a1a1aa;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  position: relative;
+  align-self: stretch;
+}
+.frame-1171277683 {
+  display: flex;
+  flex-direction: column;
+  gap: var(--padding-padding-sm, 16px);
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  width: 120px;
+  position: relative;
+}
+.company {
+  color: #ffffff;
+  text-align: center;
+  font-family: "Inter-Medium", sans-serif;
+  font-size: 20px;
+  line-height: 28px;
+  font-weight: 500;
+  position: relative;
+}
+.action {
+  display: flex;
+  flex-direction: column;
+  gap: var(--padding-padding-sm, 16px);
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.about-us {
+  color: #a1a1aa;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  position: relative;
+}
+.our-mission {
+  color: #a1a1aa;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  position: relative;
+}
+.contact-saled {
+  color: #a1a1aa;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  position: relative;
+}
+.frame-1171277687 {
+  display: flex;
+  flex-direction: column;
+  gap: var(--padding-padding-sm, 16px);
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  width: 160px;
+  position: relative;
+}
+.services {
+  color: #ffffff;
+  text-align: center;
+  font-family: "Inter-Medium", sans-serif;
+  font-size: 20px;
+  line-height: 28px;
+  font-weight: 500;
+  position: relative;
+}
+.products-services {
+  color: #a1a1aa;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  position: relative;
+}
+.customer-stories {
+  color: #a1a1aa;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  position: relative;
+}
+.download-apps {
+  color: #a1a1aa;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  position: relative;
+}
+.frame-1171277688 {
+  display: flex;
+  flex-direction: column;
+  gap: var(--padding-padding-sm, 16px);
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  width: 160px;
+  position: relative;
+}
+.information {
+  color: #ffffff;
+  text-align: center;
+  font-family: "Inter-Medium", sans-serif;
+  font-size: 20px;
+  line-height: 28px;
+  font-weight: 500;
+  position: relative;
+}
+.privacy-policy {
+  color: #a1a1aa;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  position: relative;
+}
+.terms-conditions {
+  color: #a1a1aa;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  position: relative;
+}
+.join-us {
+  color: #a1a1aa;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  position: relative;
+}
+.frame-1171277686 {
+  display: flex;
+  flex-direction: column;
+  gap: var(--padding-padding-sm, 16px);
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  width: 220px;
+  position: relative;
+}
+.social-links {
+  color: #ffffff;
+  text-align: center;
+  font-family: "Inter-Medium", sans-serif;
+  font-size: 20px;
+  line-height: 28px;
+  font-weight: 500;
+  position: relative;
+}
+.action2 {
+  display: flex;
+  flex-direction: column;
+  gap: var(--padding-padding-sm, 16px);
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.frame-11712776872 {
+  display: flex;
+  flex-direction: row;
+  gap: var(--padding-padding-xxs, 8px);
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.fi-5969020 {
+  flex-shrink: 0;
+  width: 20px;
+  height: 20px;
+  position: relative;
+  overflow: hidden;
+  aspect-ratio: 1;
+}
+.group {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  right: 0%;
+  left: 0%;
+  bottom: 0%;
+  top: 0%;
+  overflow: visible;
+}
+.cs-ticket-system3 {
+  color: #a1a1aa;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  position: relative;
+}
+.frame-1171277689 {
+  display: flex;
+  flex-direction: row;
+  gap: var(--padding-padding-xxs, 8px);
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.fi-145807 {
+  flex-shrink: 0;
+  width: 20px;
+  height: 20px;
+  position: relative;
+  overflow: hidden;
+  aspect-ratio: 1;
+}
+.group2 {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  right: 0%;
+  left: 0%;
+  bottom: 0%;
+  top: 0%;
+  overflow: visible;
+}
+.frame-1171277690 {
+  display: flex;
+  flex-direction: row;
+  gap: var(--padding-padding-xxs, 8px);
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.fi-5968764 {
+  flex-shrink: 0;
+  width: 20px;
+  height: 20px;
+  position: relative;
+  overflow: hidden;
+  aspect-ratio: 1;
+}
+.group3 {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  right: 0%;
+  left: 0%;
+  bottom: 0%;
+  top: 0%;
+  overflow: visible;
+}
+.frame-1171277691 {
+  display: flex;
+  flex-direction: row;
+  gap: var(--padding-padding-xxs, 8px);
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.fi-6244710 {
+  flex-shrink: 0;
+  width: 20px;
+  height: 20px;
+  position: relative;
+  overflow: visible;
+  aspect-ratio: 1;
+}
+.support-cst-com {
+  color: #a1a1aa;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  position: relative;
+}
+.frame-1171277692 {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.line-3 {
+  margin-top: -1px;
+  border-style: solid;
+  border-color: var(--ds-new-colors-stroke-gray-light, #e5e7eb);
+  border-width: 1px 0 0 0;
+  opacity: 0.2;
+  align-self: stretch;
+  flex-shrink: 0;
+  height: 0px;
+  position: relative;
+}
+._2025-cs-ticket-system-all-rights-reserved {
+  color: #fafafa;
+  text-align: center;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  position: relative;
+  align-self: stretch;
+}
